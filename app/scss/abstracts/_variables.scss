@@ -1,8 +1,10 @@
 // custom variables
-$primary: #6f42c1;
-$secondary: pink;
+$custom-primary: #16a078;
+$custom-secondary: #b61cba;
 
-// white and gray colors
+// override Bootstrap variables
+$primary: $custom-primary;
+$secondary: $custom-secondary;
 
-
+// import Bootstrap
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
