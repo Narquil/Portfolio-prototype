@@ -11348,6 +11348,13 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.intro-col .video-box {
+  position: relative;
+}
+.intro-col .video-box a span i {
+  font-size: 6rem;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(22, 160, 120, 0.95), rgba(182, 28, 186, 0.95));
 }
