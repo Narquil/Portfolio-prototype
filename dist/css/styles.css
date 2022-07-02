@@ -11305,6 +11305,27 @@ textarea.form-control-lg {
   }
 }
 
+@-webkit-keyframes pulse-border {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
 .btn-rounded {
   position: relative;
   padding: 0.8375rem 3.375rem 0.8375rem 1.25rem;
@@ -11353,6 +11374,26 @@ textarea.form-control-lg {
 }
 .intro-col .video-box a span i {
   font-size: 6rem;
+}
+
+.border-animation {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  width: 6rem;
+  height: 6rem;
+  border: 0.55rem solid white;
+  border-radius: 50%;
+  -webkit-animation: pulse-border 1.5s linear infinite;
+          animation: pulse-border 1.5s linear infinite;
+}
+.border-animation--border-1 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.border-animation--border-2 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .menu {
