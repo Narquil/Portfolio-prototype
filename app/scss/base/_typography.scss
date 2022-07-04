@@ -25,3 +25,24 @@
         }
     }
 }
+
+// companies heading line
+.heading-line::before {
+    content: "";
+    margin: 0 auto;
+    width: 10rem;
+    height: 0.1rem;
+    display: block;
+    background-color: $primary;
+}
+
+.heading-line::after {
+    content: "";
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    width: 2rem;
+    height: 0.2rem;
+    display: block;
+    background-color: $primary;
+}
