@@ -11412,7 +11412,7 @@ textarea.form-control-lg {
 .companies {
   padding: 0 0 5rem 0;
 }
-.companies--logo-box {
+.companies__logo-box {
   max-width: 100%;
   height: 3rem;
   margin-bottom: 2rem;
@@ -11420,10 +11420,10 @@ textarea.form-control-lg {
   text-align: center;
   position: relative;
 }
-.companies--logo-box img {
+.companies__logo-box img {
   height: 100%;
 }
-.companies--logo-box img:hover {
+.companies__logo-box img:hover {
   filter: grayscale(20);
 }
 
@@ -11503,11 +11503,11 @@ textarea.form-control-lg {
     font-size: 2.5rem;
   }
 }
-.services__img {
-  max-width: 100%;
-}
 @media (min-width: 768px) {
-  .services .md-flip {
+  .services__content--md-flip {
     text-align: end;
   }
+}
+.services__img {
+  max-width: 100%;
 }/*# sourceMappingURL=styles.css.map */
