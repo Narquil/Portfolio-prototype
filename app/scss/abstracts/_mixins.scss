@@ -10,5 +10,11 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-50%,-50%);
+}
+
+// hover transition
+@mixin hoverTransition {
+    transition-duration: 1000ms;
+    transition-property: all;
 }
