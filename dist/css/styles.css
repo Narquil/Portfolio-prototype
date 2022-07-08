@@ -11455,6 +11455,11 @@ textarea.form-control-lg {
   padding: 0.8rem 0.4rem 0.4rem 0.4rem;
   font-weight: 600;
 }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-box__info {
+    padding: 0.8rem 0.4rem 0.4rem 0;
+  }
+}
 .contact-box__info--title {
   color: white;
   text-decoration: none;
@@ -11487,6 +11492,54 @@ textarea.form-control-lg {
   .footer-social-media a i {
     font-size: 1.6rem;
   }
+}
+
+.company-list {
+  display: block;
+  list-style-type: none;
+  position: relative;
+}
+.company-list li {
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+.company-list li a {
+  color: white;
+  text-decoration: none;
+}
+.company-list li a:hover {
+  color: #198754;
+}
+
+.footer-copyright__info {
+  color: lightgray;
+  font-weight: 400;
+}
+.footer-copyright__info a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+.footer-copyright__info a:hover {
+  color: #198754;
+  text-decoration: underline;
+}
+
+.back-to-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  z-index: 10;
+}
+.back-to-top i {
+  color: white;
+  font-size: 1.2rem;
+  stroke: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .contact {

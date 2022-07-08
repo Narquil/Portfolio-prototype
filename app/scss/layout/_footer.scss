@@ -24,6 +24,10 @@
         padding: 0.8rem 0.4rem 0.4rem 0.4rem;
         font-weight: 600;
 
+        @include media-breakpoint-only(md) {
+            padding: 0.8rem 0.4rem 0.4rem 0;
+        }
+
         &--title {
             color: white;
             text-decoration: none;
@@ -58,5 +62,59 @@
                 font-size: 1.6rem;
             }
         }
+    }
+}
+
+.company-list {
+    display: block;
+    list-style-type: none;
+    position: relative;
+
+    li {
+        margin-bottom: 0.5rem;
+        text-decoration: none;
+
+        a {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                color: $success;
+            }
+        }
+    }
+}
+
+.footer-copyright {
+    &__info {
+        color: lightgray;
+        font-weight: 400;
+
+        a {
+            color: $light;
+            text-decoration: none;
+
+            &:hover {
+                color: $success;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+// back to top button
+.back-to-top {
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    right: 1.875rem;
+    bottom: 1.875rem;
+    z-index: 10;
+
+    i {
+        color: white;
+        font-size: 1.2rem;
+        stroke: 2;
+        @include absoluteCenter;
     }
 }
