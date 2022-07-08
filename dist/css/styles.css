@@ -11431,6 +11431,64 @@ textarea.form-control-lg {
   filter: grayscale(20);
 }
 
+.footer {
+  padding-top: 1rem;
+  background: linear-gradient(to right, rgba(22, 160, 120, 0.95), rgba(121, 126, 246, 0.95));
+}
+
+.contact-box {
+  position: relative;
+}
+.contact-box__icon {
+  width: 2rem;
+  fill: white;
+  stroke: white;
+  stroke-width: 0.1;
+  padding-top: 0.5rem;
+}
+@media (min-width: 576px) {
+  .contact-box__icon {
+    width: 4rem;
+  }
+}
+.contact-box__info {
+  padding: 0.8rem 0.4rem 0.4rem 0.4rem;
+  font-weight: 600;
+}
+.contact-box__info--title {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+@media (min-width: 576px) {
+  .contact-box__info--title {
+    font-size: 1.4rem;
+  }
+}
+.contact-box__info--subtitle {
+  color: #f8f9fa;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+@media (min-width: 576px) {
+  .contact-box__info--subtitle {
+    font-size: 1rem;
+  }
+}
+
+.footer-social-media {
+  background-color: #f8f9fa;
+}
+.footer-social-media a i {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+@media (min-width: 992px) {
+  .footer-social-media a i {
+    font-size: 1.6rem;
+  }
+}
+
 .contact {
   padding: 4rem 0;
   background-color: #f8f9fa;
